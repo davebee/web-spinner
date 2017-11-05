@@ -9,9 +9,9 @@ include js file:
 `<script src="./web-spinner.min.js"></script>`
 
 
-##usage
+## usage
 create an instance of the web-spinner:
 `new webSpinner({parent: '#myWS', show: true});`
 
-parent: could be a DOM node or a CSS selector string
-show: true/false
+**parent**: could be a DOM node or a CSS selector string
+**show**: true/false

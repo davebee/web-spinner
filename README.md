@@ -1,7 +1,7 @@
 # web-spinner
 a basic js spinner
 
-## inclusion
+## Inclusion
 Include css file:
 ```
 <link rel="stylesheet" href="./web-spinner.css"/>
@@ -13,7 +13,7 @@ include js file:
 ```
 
 
-## usage
+## Usage
 create an instance of the web-spinner:
 ```
 new webSpinner({parent: '#myWS', show: true});
@@ -22,3 +22,7 @@ new webSpinner({parent: '#myWS', show: true});
 parent: could be a DOM node or a CSS selector string
 
 show: true/false
+
+
+## License
+MIT License

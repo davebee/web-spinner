@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style>
+		html {
+		  background: black;
+		}
+		.loader{
+			display: inline-block;
+		}
+	</style>
+	<link rel="stylesheet" href="./web-spinner.css"/>
+</head>
+<body>
+	<div class="loader">
+		<div id="myWS" style="height:400px; width: 600px; background-color: #000"></div>
+		<button onclick="myWS.show();">Show</button>&nbsp;<button onclick="myWS.hide();">Hide</button>
+	</div>
+	<div class="loader">
+		<div id="myWS2" style="height:300px; width: 300px; background-color: #333"></div>
+		<button onclick="myWS2.show();">Show</button>&nbsp;<button onclick="myWS2.hide();">Hide</button>
+	</div>
+	<div class="loader">
+		<div id="myWS3" style="height:200px; width: 200px; background-color: #666"></div>
+		<button onclick="myWS3.show();">Show</button>&nbsp;<button onclick="myWS3.hide();">Hide</button>
+	</div>
+	<div class="loader">
+		<div id="myWS4" style="height:400px; width: 600px; background-color: #FFF"></div>
+		<button onclick="myWS4.show();">Show</button>&nbsp;<button onclick="myWS4.hide();">Hide</button>
+	</div>
+	<div class="loader">
+		<div id="myWS5" style="height:300px; width: 300px; background-color: #CCC"></div>
+		<button onclick="myWS5.show();">Show</button>&nbsp;<button onclick="myWS5.hide();">Hide</button>
+	</div>
+	<div class="loader">
+		<div id="myWS6" style="height:200px; width: 200px; background-color: #999"></div>
+		<button onclick="myWS6.show();">Show</button>&nbsp;<button onclick="myWS6.hide();">Hide</button>
+	</div>
+</body>
+
+<script src="./web-spinner.min.js"></script>
+
+<script>
+
+	var myWS = new webSpinner({parent: '#myWS', show: true});
+	var myWS2 = new webSpinner({parent: '#myWS2', show: true});
+	var myWS3 = new webSpinner({parent: '#myWS3', show: true});
+	var myWS4 = new webSpinner({parent: '#myWS4', show: true});
+	var myWS5 = new webSpinner({parent: '#myWS5', show: true});
+	var myWS6 = new webSpinner({parent: '#myWS6', show: true});
+
+</script>
+</html>
